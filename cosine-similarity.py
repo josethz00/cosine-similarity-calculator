@@ -13,3 +13,6 @@ def cosine_similarity(vector1: list[float], vector2: list[float]) -> float:
     elif vector2_length > vector1_length:
         # fill vector1 with 0s until it is the same length as vector2 (required for dot product)
         vector1.append(0) * (vector2_length - vector1_length)
+
+    for i in range(len(vector1)):
+        dot_product += vector1[i] * vector2[i]
