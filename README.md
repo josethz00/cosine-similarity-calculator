@@ -10,7 +10,8 @@ In this context, the two vectors I am talking about are arrays of numbers (like 
 
 The mathematical formula for calculating cosine similarity is:
 
-![Cosine Similarity Formula](https://latex.codecogs.com/svg.latex?%5Ctext%7BCosine%20Similarity%7D%20%3D%20%5Cfrac%7B%5Cvec%7BA%7D%20%5Ccdot%20%5Cvec%7BB%7D%7D%7B%5Cleft%20%5C%7C%20%5Cvec%7BA%7D%20%5Cright%20%5C%7C%20%5Cleft%20%5C%7C%20%5Cvec%7BB%7D%20%5Cright%20%5C%7C%7D)
+![Cosine Similarity Formula](https://latex.codecogs.com/png.latex?\dpi{200}\bg_white\large%20\text{Cosine%20Similarity}%20=%20\frac{\vec{A}%20\cdot%20\vec{B}}{\left%20\|%20\vec{A}%20\right%20\|%20\left%20\|%20\vec{B}%20\right%20\|})
+
 
 Where:
 - $A$ and $B$ are our vectors
