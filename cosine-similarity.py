@@ -33,3 +33,6 @@ def cosine_similarity(vector1: list[float], vector2: list[float]) -> float:
     # final magnitude calculation
     magnitude = sqrt(magnitude_vector1) * sqrt(magnitude_vector2)
 
+    # return cosine similarity
+    return dot_product / magnitude
+
