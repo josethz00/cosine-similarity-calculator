@@ -25,5 +25,11 @@ def cosine_similarity(vector1: list[float], vector2: list[float]) -> float:
     # vector1 magnitude calculation
     for i in range(len(vector1)):
         magnitude_vector1 += pow(vector1[i], 2)
-        
+
+    # vector2 magnitude calculation
+    for i in range(len(vector2)):
+        magnitude_vector2 += pow(vector2[i], 2)
+
+    # final magnitude calculation
+    magnitude = sqrt(magnitude_vector1) * sqrt(magnitude_vector2)
 
