@@ -35,6 +35,3 @@ def cosine_similarity(vector1: list[float], vector2: list[float]) -> float:
 
     # return cosine similarity
     return dot_product / magnitude
-
-print(cosine_similarity([1, 2, 3], [4, 5, 6])) # 0.9746318461970762
-print(cosine_similarity([1, 0, 2], [0.7, 0, 1, 2])) # 0.7808688094430304s
