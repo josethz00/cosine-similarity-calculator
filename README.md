@@ -14,7 +14,7 @@ The mathematical formula for calculating cosine similarity is:
 
 Where:
 - $A$ and $B$ are our vectors
-- The dot product of $A$ and $B$ is calculated as $∑_{i=1}^{n} A[i] * B[i]$
+- The dot product ($ \vec{A} \cdot \vec{B} $) of $A$ and $B$ is calculated as $∑_{i=1}^{n} A[i] * B[i]$
 - $||A||$ and $||B||$ are the magnitudes (lengths) of the vectors
 
 The output will range from -1 to 1, where:
